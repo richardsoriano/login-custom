@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tatooine/Documents/dev-asp/useful/login-custom/login-custom/login-custom.csproj": {}
+    "D:\\repos\\dev-asp\\login-custom\\login-custom\\login-custom.csproj": {}
   },
   "projects": {
-    "/Users/tatooine/Documents/dev-asp/useful/login-custom/login-custom/login-custom.csproj": {
+    "D:\\repos\\dev-asp\\login-custom\\login-custom\\login-custom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tatooine/Documents/dev-asp/useful/login-custom/login-custom/login-custom.csproj",
+        "projectUniqueName": "D:\\repos\\dev-asp\\login-custom\\login-custom\\login-custom.csproj",
         "projectName": "login-custom",
-        "projectPath": "/Users/tatooine/Documents/dev-asp/useful/login-custom/login-custom/login-custom.csproj",
-        "packagesPath": "/Users/tatooine/.nuget/packages/",
-        "outputPath": "/Users/tatooine/Documents/dev-asp/useful/login-custom/login-custom/obj/",
+        "projectPath": "D:\\repos\\dev-asp\\login-custom\\login-custom\\login-custom.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\dev-asp\\login-custom\\login-custom\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tatooine/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +39,36 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
