@@ -7,7 +7,7 @@ namespace login_custom.Controllers
     {
         private readonly ApplicationDbContext _db;
 
-        public LoginCustomController(ApplicationDbContext db) { _db = db}
+        public LoginCustomController(ApplicationDbContext db) { _db = db; }
         public IActionResult Index()
         {
             return View();
